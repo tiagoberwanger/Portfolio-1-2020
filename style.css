@@ -1,28 +1,55 @@
     body{
-        background-color: rgb(207, 204, 204);
         justify-content: center;
         font-size: 15px;
+        padding:0px;
+        margin:auto;
+        border-color: black;
+        border-style: groove;
+        max-width: 950px;
+        background-image: url(https://papers.co/wallpaper/papers.co-vb35-wallpaper-programmer-coding-pattern-34-iphone6-plus-wallpaper.jpg);
+
+        
     }
+
+    .background-content{
+        background-color: whitesmoke;
+    }
+
+
     h1{
         font-family: 'Roboto', sans-serif;
         font-weight: 700;
         font-size: 3em;
-        text-align: center;
-        background-color: whitesmoke;
-        color: rgb(65, 65, 65);;
-        margin-top: auto;
+        text-align: left;
+        color: black;
+        padding-top: 20px;
+        padding-left: 10px;
+        margin:0;
     }
+
+    p.header{
+        margin-top: 75px;
+    }
+
+    .personal-data{
+        text-align: center;
+        margin-left: 20px;
+    }
+
     h2{
         font-family: 'Roboto', sans-serif;
         font-weight: 500;
-        color: grey;
+        color: black;
         font-size: 2.5em;
         text-align: center;
-        background-color: black
+        margin-top:0px;
+        background-color: grey;
+
     }
 
     h3{
         font-family: 'Roboto', sans-serif;
+        color: grey;
         font-size: 2em;
         text-align: center;
     }
@@ -40,6 +67,7 @@
         line-height: 1.5em;
         text-align:justify;
         font-size: 1.2em;
+        margin: 10px;
     }
 
     h4{
@@ -56,25 +84,26 @@
         text-align: center;
     }
 
-
-
     #img-tiago{
         border-radius: 100%;
         display: block;
-        margin-left: auto;
-        margin-right: auto 
+        margin: 50px;
+        border-color: black;
+        float: left;
     }
 
     #img-trybe{
-        border-radius: 5%;
         display: block;
         margin-left: auto;
-        margin-right: auto 
+        margin-right: auto;
+        border-style: double;
+
     }
 
-    #gif{
-        border-radius: 12%;
-        padding:30px;
+    .projetos{
+        background-image: url(https://thumbs.gfycat.com/WelllitGlassGemsbok-size_restricted.gif);
+        background-size: cover;
+        padding-block-end: 50vh;
     }
 
     div.grid.icons{
@@ -91,5 +120,6 @@
         text-decoration: none;
         color: black;
         font-size: 1.5em;
+        text-align: center;
 
     }
