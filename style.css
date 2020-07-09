@@ -102,8 +102,9 @@
 
     .projetos{
         background-image: url(https://thumbs.gfycat.com/WelllitGlassGemsbok-size_restricted.gif);
-        background-size: cover;
-        padding-block-end: 50vh;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: center;
     }
 
     div.grid.icons{
